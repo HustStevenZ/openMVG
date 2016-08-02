@@ -1,0 +1,38 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="http://imagine.enpc.fr/~moulonp/style.css" /><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js"></script>
+<title>SequentialReconstructionEngine SFM report.</title>
+</head>
+<h1>SequentialSfMReconstructionEngine</h1>
+<hr>Dataset info:Views count: 11<br><h1>Essential Matrix.</h1>
+
+-------------------------------<br>-- Robust Essential matrix: <2,3> images: /100_7102.JPG,/100_7103.JPG<br>-- Threshold: 34.7339<br>-- Resection status: OK<br>-- Nb points used for robust Essential matrix estimation: 23<br>-- Nb points validated by robust estimation: 23<br>-- % points validated: 1<br>-------------------------------<br><h2>Residual of the robust estimation (Initial triangulation). Thresholded at: 34.7339</h2>
+<h2>Histogram of residuals</h2>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.03681,0.25892,0.48102,0.70312,0.92523,1.14733,1.36943,1.59153,1.81364,2.03574,];
+var data1= [12.00000,15.00000,22.00000,18.00000,9.00000,4.00000,3.00000,4.00000,1.00000,3.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+var p2 = board.create('point',[34.73390,0.00000], {fixed:true});
+var p3 = board.create('point',[34.73390,12.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.36297,26.20000,2.43553,-3.20000]);
+</script>
+<hr><hr><h1>Structure from Motion process finished.</h1>
+-------------------------------<br>-- Structure from Motion (statistics):<br>-- #Camera calibrated: 2 from 11 input images.<br>-- #Tracks, #3D points: 23<br>-------------------------------<br><h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.03681,0.25892,0.48102,0.70312,0.92523,1.14733,1.36943,1.59153,1.81364,2.03574,];
+var data1= [12.00000,15.00000,22.00000,18.00000,9.00000,4.00000,3.00000,4.00000,1.00000,3.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.36297,26.20000,2.43553,-3.20000]);
+</script>
+</html>

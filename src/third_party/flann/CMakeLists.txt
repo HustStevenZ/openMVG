@@ -53,7 +53,7 @@ set(TEST_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/test)
 option(BUILD_C_BINDINGS "Build C bindings" OFF)
 #option(BUILD_PYTHON_BINDINGS "Build Python bindings" OFF)
 #option(BUILD_MATLAB_BINDINGS "Build Matlab bindings" OFF)
-option(BUILD_CUDA_LIB "Build CUDA library" OFF)
+option(BUILD_CUDA_LIB "Build CUDA library" ON)
 option(USE_OPENMP "Use OpenMP multi-threading" ON)
 #option(USE_MPI "Use MPI" OFF)
 
@@ -77,6 +77,17 @@ if (USE_OPENMP)
     endif()
 endif()
 
+# CUDA support
+if (BUILD_CUDA_LIB)
+    find_package(CUDA)
+    if (CUDA_FOUND)
+        message(STATUS "CUDA found (include: ${CUDA_INCLUDE_DIRS}, lib: ${CUDA_LIBRARIES})")
+        include_directories(${CUDA_INCLUDE_DIRS})
+    else(CUDA_FOUND)
+        message(STATUS "CUDA not found, CUDA library will not be built")
+        set(BUILD_CUDA_LIB OFF)
+    endif(CUDA_FOUND)
+endif(BUILD_CUDA_LIB)
 
 #set the C/C++ include path to the "include" directory
 include_directories(${PROJECT_SOURCE_DIR}/src/cpp)

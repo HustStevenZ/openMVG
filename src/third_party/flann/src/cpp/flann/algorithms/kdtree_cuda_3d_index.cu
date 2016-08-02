@@ -271,6 +271,40 @@ struct GpuDistance< L1<float> >
     typedef CudaL1 type;
 };
 
+template<>
+struct GpuDistance< L2<double> >
+{
+    typedef CudaL2 type;
+};
+
+template<>
+struct GpuDistance< L2_Simple<double> >
+{
+    typedef CudaL2 type;
+};
+template<>
+struct GpuDistance< L1<double> >
+{
+    typedef CudaL1 type;
+};
+
+template<>
+struct GpuDistance< L2<unsigned char> >
+{
+    typedef CudaL2 type;
+};
+
+template<>
+struct GpuDistance< L2_Simple<unsigned char> >
+{
+    typedef CudaL2 type;
+};
+template<>
+struct GpuDistance< L1<unsigned char> >
+{
+    typedef CudaL1 type;
+};
+
 
 template< typename Distance >
 void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, size_t knn, const SearchParams& params) const
@@ -291,6 +325,11 @@ void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& querie
     float epsError = 1+params.eps;
     bool sorted = params.sorted;
     bool use_heap = params.use_heap;
+    thrust::device_ptr<float> qd = thrust::device_pointer_cast(queries.ptr());
+        thrust::device_ptr<float> dd = thrust::device_pointer_cast(dists.ptr());
+        thrust::device_ptr<int> id = thrust::device_pointer_cast(indices.ptr());
+
+
 
     typename GpuDistance<Distance>::type distance;
 //       std::cout<<" search: "<<std::endl;
@@ -309,7 +348,7 @@ void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& querie
 
 
         if( knn==1  ) {
-            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
+                     KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
                                                                                   thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
                                                                                   thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
                                                                                   thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
@@ -781,6 +820,45 @@ void KDTreeCuda3dIndex<Distance>::clearGpuBuffers()
     delete gpu_helper_;
     gpu_helper_=0;
 }
+// explicit instantiations for distance-independent functions
+template
+void KDTreeCuda3dIndex<flann::L2<unsigned char> >::uploadTreeToGpu();
+
+template
+void KDTreeCuda3dIndex<flann::L2<unsigned char> >::clearGpuBuffers();
+
+template
+struct KDTreeCuda3dIndex<flann::L2<unsigned char> >::GpuHelper;
+
+template
+void KDTreeCuda3dIndex<flann::L2<unsigned char> >::knnSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, size_t knn, const SearchParams& params) const;
+
+template
+int KDTreeCuda3dIndex< flann::L2<unsigned char> >::radiusSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, float radius, const SearchParams& params) const;
+template
+int KDTreeCuda3dIndex< flann::L2<unsigned char> >::radiusSearchGpu(const Matrix<ElementType>& queries, std::vector< std::vector<int> >& indices,
+                                                           std::vector<std::vector<DistanceType> >& dists, float radius, const SearchParams& params) const;
+
+
+// explicit instantiations for distance-independent functions
+template
+void KDTreeCuda3dIndex<flann::L2<double> >::uploadTreeToGpu();
+
+template
+void KDTreeCuda3dIndex<flann::L2<double> >::clearGpuBuffers();
+
+template
+struct KDTreeCuda3dIndex<flann::L2<double> >::GpuHelper;
+
+template
+void KDTreeCuda3dIndex<flann::L2<double> >::knnSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, size_t knn, const SearchParams& params) const;
+
+template
+int KDTreeCuda3dIndex< flann::L2<double> >::radiusSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, float radius, const SearchParams& params) const;
+template
+int KDTreeCuda3dIndex< flann::L2<double> >::radiusSearchGpu(const Matrix<ElementType>& queries, std::vector< std::vector<int> >& indices,
+                                                           std::vector<std::vector<DistanceType> >& dists, float radius, const SearchParams& params) const;
+
 
 // explicit instantiations for distance-independent functions
 template

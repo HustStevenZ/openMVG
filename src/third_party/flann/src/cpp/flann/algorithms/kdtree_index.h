@@ -36,6 +36,7 @@
 #include <cassert>
 #include <cstring>
 #include <stdarg.h>
+#include <cmath>
 
 #include "flann/general.h"
 #include "flann/algorithms/nn_index.h"
@@ -298,15 +299,19 @@ private:
          * Point data
          */
         ElementType* point;
-        /**
-         * The child nodes.
-         */
-        Node* child1, * child2;
+		/**
+		* The child nodes.
+		*/
+		Node* child1, *child2;
+		Node(){
+			child1 = NULL;
+			child2 = NULL;
+		}
+		~Node() {
+			if (child1 != NULL) { child1->~Node(); child1 = NULL; }
 
-        ~Node() {
-        	if (child1!=NULL) child1->~Node();
-        	if (child2!=NULL) child2->~Node();
-        }
+			if (child2 != NULL) { child2->~Node(); child2 = NULL; }
+		}
 
     private:
     	template<typename Archive>
@@ -663,7 +668,7 @@ private:
             ElementType max_span = 0;
             size_t div_feat = 0;
             for (size_t i=0;i<veclen_;++i) {
-                ElementType span = abs(point[i]-leaf_point[i]);
+                ElementType span = std::abs(point[i]-leaf_point[i]);
                 if (span > max_span) {
                     max_span = span;
                     div_feat = i;

@@ -7,10 +7,10 @@
 #
 
 # Indicate the openMVG binary directory
-OPENMVG_SFM_BIN = "@OPENMVG_SOFTWARE_SFM_BUILD_DIR@"
+OPENMVG_SFM_BIN = "/Users/sanqian/Workspace/4 Python/openMVG/src/build/Darwin-x86_64-Release"
 
 # Indicate the openMVG camera sensor width directory
-CAMERA_SENSOR_WIDTH_DIRECTORY = "@OPENMVG_SOFTWARE_SFM_SRC_DIR@" + "/../../openMVG/exif/sensor_width_database"
+CAMERA_SENSOR_WIDTH_DIRECTORY = "/Users/sanqian/Workspace/4 Python/openMVG/src/software/SfM" + "/../../openMVG/exif/sensor_width_database"
 
 import commands
 import os
@@ -49,7 +49,7 @@ pIntrisics = subprocess.Popen( [os.path.join(OPENMVG_SFM_BIN, "openMVG_main_SfMI
 pIntrisics.wait()
 
 print ("2. Compute features")
-pFeatures = subprocess.Popen( [os.path.join(OPENMVG_SFM_BIN, "openMVG_main_ComputeFeatures"),  "-i", matches_dir+"/sfm_data.json", "-o", matches_dir, "-m", "SIFT", "-f" , "1"] )
+pFeatures = subprocess.Popen( [os.path.join(OPENMVG_SFM_BIN, "openMVG_main_ComputeFeatures"),  "-i", matches_dir+"/sfm_data.json", "-o", matches_dir, "-m", "SIFTGPU", "-f" , "1"] )
 pFeatures.wait()
 
 print ("2. Compute matches")

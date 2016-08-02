@@ -489,7 +489,7 @@ endif (BUILD_SHARED_LIBS)
 if (NOT CMAKE_BUILD_TYPE)
   message("-- No build type specified; defaulting to CMAKE_BUILD_TYPE=Release.")
   set(CMAKE_BUILD_TYPE Release CACHE STRING
-    "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel."
+    "Choose the type of build, options are: None Debug Release RelWithDebInfo."
     FORCE)
 else (NOT CMAKE_BUILD_TYPE)
   if (CMAKE_BUILD_TYPE STREQUAL "Debug")

@@ -13,6 +13,7 @@ PROJECT(openMVG C CXX)
 IF(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
   message(FATAL_ERROR "In-source builds not allowed.")
 ENDIF()
+SET(CMAKE_BUILD_TYPE "Debug")
 
 # ==============================================================================
 # OpenMVG build options
@@ -20,7 +21,7 @@ ENDIF()
 OPTION(OpenMVG_BUILD_SHARED "Build OpenMVG shared libs" OFF)
 OPTION(OpenMVG_BUILD_TESTS "Build OpenMVG tests" OFF)
 OPTION(OpenMVG_BUILD_DOC "Build OpenMVG documentation" ON)
-OPTION(OpenMVG_BUILD_EXAMPLES "Build OpenMVG samples applications." ON)
+OPTION(OpenMVG_BUILD_EXAMPLES "Build OpenMVG samples applications." OFF)
 OPTION(OpenMVG_BUILD_OPENGL_EXAMPLES "Build OpenMVG openGL examples" OFF)
 OPTION(OpenMVG_BUILD_COVERAGE "Enable code coverage generation (gcc only)" OFF)
 OPTION(OpenMVG_USE_OPENMP "Enable OpenMP parallelization" ON)
@@ -97,13 +98,13 @@ IF (SSE2_FOUND OR TARGET_ARCHITECTURE STREQUAL "native")
   ADD_DEFINITIONS(-DOPENMVG_USE_SSE)
 ENDIF ()
 IF (UNIX AND NOT OpenMVG_BUILD_COVERAGE)
-  SET(CMAKE_C_FLAGS_RELEASE "-O3")
-  SET(CMAKE_CXX_FLAGS_RELEASE "-O3")
+  #SET(CMAKE_C_FLAGS_RELEASE "-O3")
+  #SET(CMAKE_CXX_FLAGS_RELEASE "-O3")
 ENDIF ()
 
-# ==============================================================================
-# Check C++11 support
-# ==============================================================================
+ #==============================================================================
+ #Check C++11 support
+ #==============================================================================
 INCLUDE(CXX11)
 check_for_cxx11_compiler(CXX11_COMPILER)
 # If a C++11 compiler is available, then set the appropriate flags
@@ -120,7 +121,8 @@ IF(CXX11_COMPILER)
     ADD_DEFINITIONS(-DHAVE_CXX11_CHRONO)
   ENDIF(HAVE_CXX11_CHRONO)
 ENDIF(CXX11_COMPILER)
-
+add_definitions("-D_MWAITXINTRIN_H_INCLUDED")
+SET(OpenMVG_USE_OPENMP OFF)
 # ==============================================================================
 # OpenMP detection
 # ==============================================================================
@@ -141,7 +143,7 @@ IF(OpenMVG_USE_OPENMP)
   ENDIF(OPENMP_FOUND)
 ELSE(OpenMVG_USE_OPENMP)
     OPTION(OpenMVG_USE_OPENMP "Use OpenMP for parallelization" OFF)
-    UPDATE_CACHE_VARIABLE(OpenMVG_USE_OPENMP OFF)
+#    UPDATE_CACHE_VARIABLE(OpenMVG_USE_OPENMP OFF)
     REMOVE_DEFINITIONS(-DOPENMVG_USE_OPENMP)
 ENDIF(OpenMVG_USE_OPENMP)
 
@@ -273,8 +275,10 @@ IF(NOT DEFINED FLANN_INCLUDE_DIR_HINTS)
 ENDIF()
 FIND_PACKAGE(Flann QUIET)
 IF(NOT FLANN_FOUND OR OpenMVG_USE_INTERNAL_FLANN)
+  #add_definitions("-D_MWAITXINTRIN_H_INCLUDED")
   SET(FLANN_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/flann/src/cpp)
   SET(FLANN_LIBRARY flann_cpp_s)
+  SET(FLANN_CUDA_LIBRARY flann_cuda_s)
 ENDIF()
 
 # ==============================================================================

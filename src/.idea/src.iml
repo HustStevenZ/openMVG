@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pnginfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/png.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngread.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngrutil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngtrans.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngwrite.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngrtran.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngmem.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngset.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngwutil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngpread.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngwio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngerror.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/png.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngconf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngrio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngwtran.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pnglibconf.h.prebuilt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngget.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngpriv.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngstruct.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/png/pngdebug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/flann/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/flann/src/cpp/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/flann/src/cpp/flann/flann_cpp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/flann/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/flann/cmake/flann_utils.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/flann/cmake/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/flann/cmake/flann.pc.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/easyexif/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/easyexif/exif.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/easyexif/exif.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/lemon.pc.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/lp_skeleton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/random.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/color.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/lp_base.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/color.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/arg_parser.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/random.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/bits/windows.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/bits/windows.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/arg_parser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/lp_base.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/base.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/config.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/lemon/lp_skeleton.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/cmake/FindILOG.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/cmake/LEMONConfig.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/cmake/FindGLPK.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/cmake/version.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/cmake/FindGhostscript.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/cmake/version.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/cmake/FindCOIN.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/lemon/cmake/FindSOPLEX.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/deflate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/inftrees.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/infback.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/deflate.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/crc32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/zconf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/inffast.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/zconf.in.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/zutil.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/inffast.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/adler32.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/uncompr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/crc32.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/trees.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/zlib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/inflate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/zutil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/gzio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/inflate.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/minigzip.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/trees.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/inffixed.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/compress.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/zlib/inftrees.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/stlplus3/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/stlplus3/filesystemSimplified/wildcard.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/stlplus3/filesystemSimplified/portability_fixes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/stlplus3/filesystemSimplified/portability_fixes.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/stlplus3/filesystemSimplified/file_system.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/stlplus3/filesystemSimplified/wildcard.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/stlplus3/filesystemSimplified/file_system.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/vectorGraphics/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/vectorGraphics/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_version.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_stream.cxx" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_dirinfo.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_lzw.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_ojpeg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_write.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_strip.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_config.h.cmakein" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_read.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_fax3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tiffio.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_fax3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_error.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/t4.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/uvcode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_compress.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_luv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_lzma.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tiffiop.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_thunder.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_jpeg_12.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tiff.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_flush.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_dirwrite.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_pixarlog.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_open.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_next.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_close.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_fax3sm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_predict.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_getimage.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_swab.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_extension.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_dir.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_predict.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_color.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_dir.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_dumpmode.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_packbits.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_jbig.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_dirread.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_tile.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_unix.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tiffio.hxx" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_warning.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_print.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_aux.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tiffvers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_codec.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_zip.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/tiff/tif_jpeg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_etree.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_happly.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_amd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_pvec.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_reach.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_scatter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_tdfs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_multiply.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_counts.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_symperm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_lsolve.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_spsolve.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_malloc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_ltsolve.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_fkeep.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_randperm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_dupl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_updown.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_usolve.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_utsolve.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_cumsum.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_schol.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_print.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_qrsol.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_cholsol.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_ereach.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_transpose.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_lusol.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_droptol.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_dropzeros.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_load.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_maxtrans.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_scc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_leaf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_permute.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_chol.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_ipvec.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_sqr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_gaxpy.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_entry.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_dfs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_convert.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_norm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_add.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_post.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_pinv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_house.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_util.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_compress.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_qr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_lu.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/cxsparse/Source/cs_dmperm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jmorecfg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcinit.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jerror.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdapistd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jmemmgr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcapistd.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jerror.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcomapi.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jchuff.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jfdctfst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jidctflt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jpeglib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcmainct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcmarker.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdarith.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jfdctint.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdsample.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcdctmgr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdinput.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdhuff.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jfdctflt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdct.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jversion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcapimin.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jmemsys.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jidctfst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jinclude.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdatasrc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdapimin.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdtrans.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdmarker.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jidctint.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdcolor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcparam.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcprepct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcmaster.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jconfig.h.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jctrans.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdatadst.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jccolor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdmaster.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jpegint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jccoefct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcarith.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jquant2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdmerge.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jddctmgr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdpostct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdcoefct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jmemnobs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jcsample.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jutils.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jaricom.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jdmainct.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/jpeg/jquant1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/scratch_evaluate_preparer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/visibility_based_preconditioner.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/compressed_row_jacobian_writer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_evaluate_preparer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/visibility.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dense_jacobian_writer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_structure.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/detect_structure.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/triplet_sparse_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/sparse_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/residual_block.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/callbacks.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/linear_operator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/triplet_sparse_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/low_rank_inverse_hessian.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/evaluator.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/cxsparse.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/sparse_normal_cholesky_solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/detect_structure.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/partitioned_matrix_view_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/line_search_preprocessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/casts.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/low_rank_inverse_hessian.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_jacobi_preconditioner.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/execution_summary.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/preprocessor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/suitesparse.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/trust_region_preprocessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/mutex.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_sparse_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/coordinate_descent_minimizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/stringprintf.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/trust_region_minimizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dense_sparse_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/partitioned_matrix_view.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/schur_complement_solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/callbacks.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/compressed_col_sparse_matrix_utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/gradient_problem_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/compressed_row_sparse_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/schur_jacobi_preconditioner.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_jacobian_writer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/trust_region_strategy.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/parameter_block_ordering.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/trust_region_minimizer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/collections_port.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/line_search_minimizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dynamic_compressed_row_finalizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/solver_utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_random_access_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/line_search.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/schur_eliminator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/levenberg_marquardt_strategy.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/numeric_diff_test_utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/problem_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/scratch_evaluate_preparer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/evaluator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/stl_util.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/lapack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/cgnr_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dense_sparse_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/line_search.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/miniglog/glog/logging.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/miniglog/glog/logging.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_random_access_diagonal_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/file.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/compressed_row_sparse_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/local_parameterization.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/wall_time.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/minimizer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/canonical_views_clustering.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/trust_region_preprocessor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/schur_eliminator_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/parameter_block_ordering.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/canonical_views_clustering.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/wall_time.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/gradient_checking_cost_function.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dense_normal_cholesky_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/visibility_based_preconditioner.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/reorder_program.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/corrector.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/linear_solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/partitioned_matrix_view.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dense_qr_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_jacobian_writer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/minimizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/levenberg_marquardt_strategy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/conjugate_gradients_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/normal_prior.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/compressed_row_jacobian_writer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/iterative_schur_complement_solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_random_access_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/graph_algorithms.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/integral_types.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dynamic_compressed_row_sparse_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/conditioned_cost_function.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_sparse_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/cgnr_linear_operator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/trust_region_strategy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/corrector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/cxsparse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/linear_least_squares_problems.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/implicit_schur_complement.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/problem_impl.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/loss_function.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/lapack.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/array_utils.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/graph.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_random_access_dense_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/map_util.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/line_search_preprocessor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/gradient_checking_cost_function.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/line_search_minimizer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/covariance.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/implicit_schur_complement.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_4.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_6.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_3.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_d_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_3.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_4.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_9.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_3.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_3.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_4.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_8.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_4_4_2.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_4.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_3.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_2_2.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_2.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_9.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_2.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_3.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_4_4_4.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_2_3.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_4.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_d_d_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_6.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_9.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_4_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_3.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_3_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_d_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_9.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_d_d_d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_4.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/partitioned_matrix_view_2_3_4.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/generated/schur_eliminator_2_4_8.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/blas.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/polynomial.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/covariance_impl.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/program_evaluator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/schur_complement_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_random_access_sparse_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/single_linkage_clustering.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/array_utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/single_linkage_clustering.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/cgnr_solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/parameter_block.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dense_qr_solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dogleg_strategy.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/types.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/schur_jacobi_preconditioner.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/linear_least_squares_problems.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_random_access_sparse_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/program.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/conjugate_gradients_solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/c_api.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/linear_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/preconditioner.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/householder_vector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/stringprintf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/program.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/linear_operator.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/residual_block.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/suitesparse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/sparse_matrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_random_access_dense_matrix.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/blas.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/small_blas.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/file.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/solver_utils.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dogleg_strategy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/line_search_direction.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/residual_block_utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dynamic_compressed_row_jacobian_writer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/gradient_problem.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/test_util.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/coordinate_descent_minimizer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/preprocessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/schur_eliminator.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/iterative_schur_complement_solver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/covariance_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/split.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/reorder_program.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/evaluator_test_utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/residual_block_utils.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/split.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/gradient_problem_evaluator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/preconditioner.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/random.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_evaluate_preparer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_structure.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/visibility.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/dense_normal_cholesky_solver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/line_search_direction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/problem.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/polynomial.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/internal/ceres/block_jacobi_preconditioner.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/cmake/AppendTargetProperty.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/cmake/FindUnorderedMap.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/cmake/CreateCeresConfig.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/cmake/FindSharedPtr.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/ceres-solver/cmake/config.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/cmake/RegexUtils.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/SparseCore/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/SPQRSupport/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Householder/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/SparseQR/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Jacobi/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/plugins/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/QR/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/IterativeLinearSolvers/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/StlSupport/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/LU/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/LU/arch/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Eigen2Support/Geometry/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Eigen2Support/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Eigenvalues/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/MetisSupport/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/misc/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/SVD/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/CholmodSupport/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/SparseCholesky/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/OrderingMethods/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/UmfPackSupport/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/PardisoSupport/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Cholesky/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Core/util/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Core/products/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Core/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Core/arch/AltiVec/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Core/arch/SSE/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Core/arch/NEON/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Core/arch/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Core/arch/Default/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Geometry/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/Geometry/arch/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/PaStiXSupport/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/SparseLU/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/src/SuperLUSupport/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/Eigen/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/MoreVectorization/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/LevenbergMarquardt/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/SparseExtra/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/FFT/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/NumericalDiff/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/IterativeSolvers/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/Eigenvalues/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/NonLinearOptimization/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/Polynomials/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/KroneckerProduct/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/Splines/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/Skyline/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/AutoDiff/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/MatrixFunctions/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/src/BVH/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/third_party/eigen/unsupported/Eigen/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/colorHarmonize/colorHarmonizeEngineGlobal.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/colorHarmonize/main_ColHarmonize.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/colorHarmonize/colorHarmonizeEngineGlobal.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/colorHarmonize/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_openMVG2PMVS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_openMVG2CMPMVS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_ComputeStructureFromKnownPoses.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_FrustumFiltering.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_ComputeMatches.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_exportMatches.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_ExportUndistortedImages.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_exportTracks.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_ExportCameraFrustums.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_IncrementalSfM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_openMVG2openMVS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_ComputeFeatures.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_openMVG2MESHLAB.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_exportKeypoints.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_GlobalSfM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_ComputeSfM_DataColor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_SfMInit_ImageListing.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_openMVG2MVSTEXTURING.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/SfM_SequentialPipeline.py.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_evalQuality.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/SfM_GlobalPipeline.py.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/tutorial_demo.py.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_ConvertList.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_ConvertSfM_DataFormat.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/main_openMVG2MVE2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/SfM/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/Localization/main_SfM_Localization.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/software/Localization/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/random.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/mathop_sse2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/imopv.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/mathop_sse2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/imopv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/imopv_sse2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/host.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/sift.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/sift.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/imopv_sse2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/host.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/mathop.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/mathop.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/generic.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/random.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/sift/vl/generic.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/GlobalUtil.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ShaderMan.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftMatch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramCL.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/FrameBufferObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/PyramidCL.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftFileLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftGPU.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftPyramid.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/CLTexImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/LiteWindow.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/PyramidGL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramGLSL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramGPU.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/GLTexImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/GlobalUtil.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftGPU.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/FrameBufferObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftPyramid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftFileLoader.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramCL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/GLTexImage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/PyramidGL.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/PyramidCL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramCG.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramCG.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramGLSL.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramGPU.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/CLTexImage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftMatch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/src/SiftGPU/ShaderMan.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/include/GL/glew.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/include/GL/wglew.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/include/GL/glut.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/SiftGPU/include/IL/il.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nonFree/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/color_harmonization/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/sample.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_diffusion.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_warping.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_resampling.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/pixel_types.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_container.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_convolution.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_io.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_drawing.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_io.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_convolution_base.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_concat.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_filtering.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/image/image_converter.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/matcher_cascade_hashing.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/indMatch.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/indMatchDecoratorXY.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/regions_matcher.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/indMatch_utils.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/matching_filters.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/pairwiseAdjacencyDisplay.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/matcher_kdtree_flann.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/kvld/kvld.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/kvld/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/kvld/kvld.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/kvld/algorithm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/kvld/algorithm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/cascade_hasher.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/metric_hamming.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/matcher_type.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/metric.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/matching_interface.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/regions_matcher.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching/matcher_brute_force.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/system/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/system/timer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/system/timer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/exif/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/exif/sensor_width_database/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/regions.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/image_describer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/image_describer_akaze.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/features.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/keypointSet.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/liop/liop_descriptor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/liop/liop_descriptor.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/regions_factory.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/io_regions_type.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/descriptor.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/akaze/AKAZE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/akaze/mldb_descriptor.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/akaze/msurf_descriptor.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/akaze/AKAZE.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/mser/mser_region.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/mser/mser.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/mser/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/mser/mser_region.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/mser/mser.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/feature.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/tbmr/tbmr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/tbmr/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/features/tbmr/tbmr.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/essential.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_essential_kernel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/test_data_sets.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/rotation_averaging_l1.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_essential_five_point.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_essential_five_point.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/rotation_averaging_common.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_resection_kernel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_fundamental_kernel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_essential_kernel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_translation_knownRotation_kernel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/translation_averaging_common.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/triangulation_nview.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/translation_averaging_solver_softl1.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/projection.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/triangulation_nview.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/translation_averaging_solver.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/conditioning.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/rotation_averaging.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/triangulation.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/translation_averaging_solver_l2_chordal.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/projection.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/test_data_sets.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_homography_kernel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_affine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/triangulation.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/two_view_kernel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/conditioning.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/rotation_averaging_l2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_resection_kernel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_homography_kernel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/essential.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_affine.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/rotation_averaging_l1.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_fundamental_kernel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/rotation_averaging_l2.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/multiview/solver_resection_p3p.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/Matcher.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/Matcher_Regions_AllInMemory.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/Geometric_Filter_utils.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/H_ACRobust.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/Cascade_Hashing_Matcher_Regions_AllInMemory.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/Pair_Builder.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/Matcher_Regions_AllInMemory.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/GeometricFilter.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/F_ACRobust.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/Cascade_Hashing_Matcher_Regions_AllInMemory.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/E_ACRobust.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/matching_image_collection/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/graph/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/robust_estimation/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/numeric/numeric.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/numeric/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/numeric/numeric.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_io.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_triangulation.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sequential/sequential_SfM.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sequential/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sequential/sequential_SfM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sfm_features_provider.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/structure_from_known_poses/structure_estimator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/structure_from_known_poses/structure_estimator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sfm_regions_provider.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/sfm_global_engine_relative_motions.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/GlobalSfM_translation_averaging.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/mutexSet.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/sfm_global_reindex.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/triplet_t_ACRansac_kernelAdaptator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/GlobalSfM_translation_averaging.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/GlobalSfM_rotation_averaging.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/sfm_global_engine_relative_motions.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/global/GlobalSfM_rotation_averaging.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sfm_matches_provider.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sfm_robust_model_estimation.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sfm_robust_model_estimation.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/localization/SfM_Localizer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/localization/SfM_Localizer_Single_3DTrackObservation_Database.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/localization/SfM_Localizer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/localization/SfM_Localizer_Single_3DTrackObservation_Database.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/pipelines/sfm_engine.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_utils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_io.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_BA_ceres_camera_functor.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_view.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_filters.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_utils.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_io_cereal.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_triangulation.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_BA_ceres.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_filters_frustum.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_BA_ceres.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_filters.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_io_ply.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_filters.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_BA.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_landmark.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_transform.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_report.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_filters_frustum.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_io_baf.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/sfm/sfm_data_transform.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/cameras/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/tracks/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/resection_kernel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/lInfinityCV.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/resection.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/global_translations_fromTij.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/resection_kernel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/tijsAndXis_From_xi_Ri.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/tijsAndXis_From_xi_Ri_noise.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/triangulation.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/linearProgramming/lInfinityCV/triplet_tijsAndXis_kernel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/geometry/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG/stl/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_fundamental/robust_fundamental.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_fundamental/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_homography/robust_homography.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_homography/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/cameras_undisto_Brown/undistoBrown.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/cameras_undisto_Brown/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_essential_spherical/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_essential_spherical/robust_essential_spherical.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_essential/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_essential/robust_essential.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_fundamental_guided/robust_fundamental_guided.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_fundamental_guided/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/exif_Parsing/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/exif_Parsing/exifParsing.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_affine_demo/features_affine_demo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_affine_demo/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_kvld_filter/kvld_filter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_kvld_filter/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_essential_ba/robust_essential_ba.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_essential_ba/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_homography_guided/robust_homography_guided.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/multiview_robust_homography_guided/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_siftPutativeMatches/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_siftPutativeMatches/siftmatch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_repeatability/main_repeatability_dataset.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_repeatability/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_image_matching/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/openMVG_Samples/features_image_matching/describe_and_match.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/IdiSolve.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpModel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplexPrimal.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDualRowPivot.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDualRowSteepest.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPdcoBase.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpParameters.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/config_default.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/OsiClp/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/OsiClp/OsiClpSolverInterface.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/OsiClp/OsiClpSolverInterface.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpMatrixBase.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpCholeskyDense.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplexDual.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpQuadraticObjective.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDualRowDantzig.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpNonLinearCost.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpNetworkBasis.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpMessage.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDualRowPivot.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPackedMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPredictorCorrector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDynamicMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPrimalColumnDantzig.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPrimalColumnPivot.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpConstraintLinear.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/MyEventHandler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDummyMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpGubDynamicMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpNetworkMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpObjective.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpFactorization.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpNode.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplexNonlinear.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/Idiot.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpInterior.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPrimalQuadraticDantzig.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpMain.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPresolve.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpLinearObjective.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpGubMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/Idiot.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPdco.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/MyMessageHandler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpLsqr.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpEventHandler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPrimalColumnSteepest.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPlusMinusOneMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplex.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpConstraint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpConstraintQuadratic.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpHelperFunctions.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPrimalColumnSteepest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpCholeskyTaucs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpCholeskyDense.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplexPrimal.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpNode.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpHelperFunctions.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpNetworkMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/unitTest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPrimalColumnPivot.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpMatrixBase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDualRowDantzig.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpQuadraticObjective.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpNonLinearCost.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplexOther.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpInterior.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpMessage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/Clp_C_Interface.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplexNonlinear.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplexOther.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDynamicMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPrimalColumnDantzig.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPredictorCorrector.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSolve.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/CbcOrClpParam.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpConstraintLinear.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpCholeskyBase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplexDual.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpGubDynamicMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpObjective.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpModel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/CbcOrClpParam.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpCholeskyBase.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDualRowSteepest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpFactorization.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpConstraint.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSimplex.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPresolve.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpGubMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPdcoBase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPdco.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDummyMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpLsqr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpNetworkBasis.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpEventHandler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpLinearObjective.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPlusMinusOneMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/config_clp_default.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/MyMessageHandler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpSolve.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpPackedMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/MyEventHandler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpCholeskyTaucs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDynamicExampleMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpDynamicExampleMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpConstraintQuadratic.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/Clp_C_Interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/src/ClpConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Clp/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPackedVector.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStartDual.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveUseless.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinMessage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/config_default.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveImpliedFree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveSingleton.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveTighten.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinModelUseful.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinMessageHandler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinDenseFactorization.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinModelUseful2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPostsolveMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveForcing.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStartPrimalDual.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPragma.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolvePsdebug.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinLpIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinOslFactorization3.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStartVector.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveDupcol.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFinite.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinDenseVector.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinDistance.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFactorization3.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStartVector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveFixed.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveUseless.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinShallowPackedVector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveIsolated.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveEmpty.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinIndexedVector.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveDoubleton.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSnapshot.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinBuild.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPackedVectorBase.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSearchTree.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinUtility.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSearchTree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFileIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSmartPtr.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFileIO.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinParam.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinAlloc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinUtilsConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSimpFactorization.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinParamUtils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinOslFactorization.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinMessage.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinOslFactorization2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStartBasis.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSignal.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFactorization4.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStartPrimalDual.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinMpsIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPackedVector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinStructuredModel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveDual.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinError.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveMonitor.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinLpIO.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveSubst.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinAlloc.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFloatEqual.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveTripleton.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinModelUseful.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveImpliedFree.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinModel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/Coin_C_defines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinMessageHandler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveHelperFunctions.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveZeros.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveTripleton.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveForcing.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveDoubleton.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFactorization.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveDupcol.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolvePsdebug.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFinite.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSort.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFactorization2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPrePostsolveMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinTypes.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStart.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinIndexedVector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveFixed.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinFactorization1.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinShallowPackedVector.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinDenseVector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinBuild.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPackedVectorBase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStartDual.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPackedMatrix.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/config_coinutils_default.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveEmpty.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinMpsIO.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinParam.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinTime.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveZeros.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveTighten.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveSubst.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveIsolated.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveMonitor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSimpFactorization.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinDenseFactorization.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinOslFactorization.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinStructuredModel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinError.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinWarmStartBasis.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinSnapshot.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinModel.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveDual.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinOslC.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPackedMatrix.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinPresolveSingleton.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/src/CoinHelperFunctions.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/CoinUtils/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/OsiMsk/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/config_default.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiColCut.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiCut.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiPresolve.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiCuts.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiSolverInterface.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiPresolve.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiSolverInterface.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiAuxInfo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiCut.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiCuts.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiBranchingObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiAuxInfo.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiRowCut.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/config_osi_default.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiBranchingObject.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiRowCutDebugger.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiChooseVariable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiRowCut.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiSolverBranch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiRowCutDebugger.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiChooseVariable.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiCollections.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiSolverBranch.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiNames.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiColCut.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/src/Osi/OsiSolverParameters.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dependencies/osi_clp/Osi/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/FindMosek.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/FindEigen.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/FindFlann.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/AddCompilerFlag.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/UpdateCacheVariable.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/FindOsi.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/FindClp.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/FindSphinx.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/FindLemon.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/OpenMVGConfig.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/CXX11.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/CheckCXXCompilerFlag.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/OptimizeForArchitecture.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/CheckCCompilerFlag.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmakeFindModules/FindCoinUtils.cmake" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstantMessage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DirectoryService.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScriptingBridge.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstallerPlugins.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreWLAN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kerberos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FWAUserLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vmnet.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Cocoa.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenCL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Python.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PubSub.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLUT.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CalendarStore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FinderSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickTime.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SyncServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kernel.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InputMethodKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMediaIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVComponentGlue.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiskArbitration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVDPlayback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioVideoBridging.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QTKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaLibrary.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OSAKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ExceptionHandling.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetFS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PreferencePanes.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScreenSaver.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageCaptureCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Automator.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityInterface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IMServicePlugIn.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/TWAIN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Hypervisor.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKitScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoDecodeAcceleration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecording.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PCSC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LDAP.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOSurface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ServiceManagement.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ICADevices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Scripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/png/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/tiff" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/jpeg/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/ceres-solver/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/lemon" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/png/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/tiff" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/jpeg/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/lemon" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/ceres-solver/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/png/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/ceres-solver/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/tiff" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/jpeg/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/lemon" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/jpeg/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/ceres-solver/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/tiff" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/png/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/lemon" />
+          <root url="file:///Library/Frameworks/OSXFUSE.framework/Headers" />
+          <root url="file:///Library/Frameworks/Mono.framework/Headers" />
+          <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstantMessage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DirectoryService.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScriptingBridge.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstallerPlugins.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreWLAN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kerberos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FWAUserLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vmnet.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Cocoa.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenCL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Python.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PubSub.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLUT.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CalendarStore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FinderSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickTime.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SyncServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kernel.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InputMethodKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMediaIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVComponentGlue.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiskArbitration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVDPlayback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioVideoBridging.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QTKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaLibrary.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OSAKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ExceptionHandling.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetFS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PreferencePanes.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScreenSaver.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageCaptureCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Automator.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityInterface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IMServicePlugIn.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/TWAIN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Hypervisor.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKitScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoDecodeAcceleration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecording.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PCSC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LDAP.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOSurface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ServiceManagement.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ICADevices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Scripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/png/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/tiff" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/jpeg/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/ceres-solver/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/__default__/third_party/lemon" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/png/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/tiff" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/jpeg/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/lemon" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Debug/third_party/ceres-solver/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/png/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/ceres-solver/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/tiff" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/jpeg/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/Release/third_party/lemon" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/jpeg/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/ceres-solver/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/tiff" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/png/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/src-ca23259c/ca23259c/RelWithDebInfo/third_party/lemon" />
+          <root url="file:///Library/Frameworks/OSXFUSE.framework/Headers" />
+          <root url="file:///Library/Frameworks/Mono.framework/Headers" />
+          <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

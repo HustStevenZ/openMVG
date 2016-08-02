@@ -39,6 +39,9 @@ class Image : public Eigen::Matrix<T, Eigen::Dynamic, Eigen::Dynamic, Eigen::Row
 
   public:
 
+    //patch for siftgpu
+    std::string imageFilePath = "";
+
     /// Pixel data type
     typedef T Tpixel;
 

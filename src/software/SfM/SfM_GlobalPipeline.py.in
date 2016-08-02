@@ -16,10 +16,10 @@
 #
 
 # Indicate the openMVG binary directory
-OPENMVG_SFM_BIN = "@OPENMVG_SOFTWARE_SFM_BUILD_DIR@"
+OPENMVG_SFM_BIN = "/home/steven/.CLion2016.1/system/cmake/generated/src-51ce58bc/51ce58bc/Debug/software/SfM"
 
 # Indicate the openMVG camera sensor width directory
-CAMERA_SENSOR_WIDTH_DIRECTORY = "@OPENMVG_SOFTWARE_SFM_SRC_DIR@" + "/../../openMVG/exif/sensor_width_database"
+CAMERA_SENSOR_WIDTH_DIRECTORY = "/home/steven/Workspace/openMVG/src/software" + "/../openMVG/exif/sensor_width_database"
 
 import commands
 import os

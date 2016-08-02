@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="openMVG" targetName="doc_doxygen" />
+      <config projectName="openMVG" targetName="SiftGPUStatic" />
+      <config projectName="openMVG" targetName="openMVG_sample_cameras_undistoBrown" />
+      <config projectName="openMVG" targetName="openMVG_main_ColHarmonize" />
+      <config projectName="openMVG" targetName="openMVG_numeric" />
+      <config projectName="openMVG" targetName="openMVG_features" />
+      <config projectName="openMVG" targetName="openMVG_main_exportMatches" />
+      <config projectName="openMVG" targetName="openMVG_main_exportKeypoints" />
+      <config projectName="openMVG" targetName="openMVG_main_openMVG2MVSTEXTURING" />
+      <config projectName="openMVG" targetName="SiftGPU" />
+      <config projectName="openMVG" targetName="openMVG_sample_features_affine" />
+      <config projectName="openMVG" targetName="png" />
+      <config projectName="openMVG" targetName="openMVG_kvld" />
+      <config projectName="openMVG" targetName="openMVG_main_evalQuality" />
+      <config projectName="openMVG" targetName="openMVG_main_exif_Parsing" />
+      <config projectName="openMVG" targetName="openMVG_main_openMVG2MESHLAB" />
+      <config projectName="openMVG" targetName="openMVG_main_ConvertList" />
+      <config projectName="openMVG" targetName="openMVG_sample_features_siftPutative" />
+      <config projectName="openMVG" targetName="openMVG_lInftyComputerVision" />
+      <config projectName="openMVG" targetName="jpeg" />
+      <config projectName="openMVG" targetName="openMVG_main_SfM_Localization" />
+      <config projectName="openMVG" targetName="lib_Osi" />
+      <config projectName="openMVG" targetName="openMVG_main_ComputeFeatures" />
+      <config projectName="openMVG" targetName="openMVG_sfm" />
+      <config projectName="openMVG" targetName="openMVG_system" />
+      <config projectName="openMVG" targetName="openMVG_sample_multiview_robustEssential_ba" />
+      <config projectName="openMVG" targetName="openMVG_main_SfMInit_ImageListing" />
+      <config projectName="openMVG" targetName="openMVG_sample_multiview_robustHomography" />
+      <config projectName="openMVG" targetName="openMVG_sample_multiview_robustEssential" />
+      <config projectName="openMVG" targetName="zlib" />
+      <config projectName="openMVG" targetName="openMVG_main_ComputeMatches" />
+      <config projectName="openMVG" targetName="lemon" />
+      <config projectName="openMVG" targetName="openMVG_main_ExportUndistortedImages" />
+      <config projectName="openMVG" targetName="openMVG_image" />
+      <config projectName="openMVG" targetName="openMVG_main_openMVG2CMPMVS" />
+      <config projectName="openMVG" targetName="openMVG_multiview_test_data" />
+      <config projectName="openMVG" targetName="ceres" />
+      <config projectName="openMVG" targetName="main_svgSample" />
+      <config projectName="openMVG" targetName="openMVG_sample_main_features_repeatability_dataset" />
+      <config projectName="openMVG" targetName="openMVG_main_ConvertSfM_DataFormat" />
+      <config projectName="openMVG" targetName="openMVG_sample_multiview_robustFundamental_guided" />
+      <config projectName="openMVG" targetName="openMVG_main_openMVG2openMVS" />
+      <config projectName="openMVG" targetName="lib_OsiClpSolver" />
+      <config projectName="openMVG" targetName="vlsift" />
+      <config projectName="openMVG" targetName="openMVG_sample_robustHomography_guided" />
+      <config projectName="openMVG" targetName="easyexif" />
+      <config projectName="openMVG" targetName="openMVG_sample_multiview_robustFundamental" />
+      <config projectName="openMVG" targetName="openMVG_main_openMVG2PMVS" />
+      <config projectName="openMVG" targetName="openMVG_main_FrustumFiltering" />
+      <config projectName="openMVG" targetName="openMVG_main_openMVG2MVE2" />
+      <config projectName="openMVG" targetName="openMVG_main_ExportCameraFrustums" />
+      <config projectName="openMVG" targetName="openMVG_matching" />
+      <config projectName="openMVG" targetName="openMVG_sample_multiview_robustEssential_spherical" />
+      <config projectName="openMVG" targetName="check" />
+      <config projectName="openMVG" targetName="flann_cpp_s" />
+      <config projectName="openMVG" targetName="openMVG_sample_features_kvld" />
+      <config projectName="openMVG" targetName="cxsparse" />
+      <config projectName="openMVG" targetName="tiff" />
+      <config projectName="openMVG" targetName="openMVG_sample_image_matching" />
+      <config projectName="openMVG" targetName="openMVG_main_ComputeStructureFromKnownPoses" />
+      <config projectName="openMVG" targetName="openMVG_main_exportTracks" />
+      <config projectName="openMVG" targetName="openMVG_main_GlobalSfM" />
+      <config projectName="openMVG" targetName="openMVG_matching_image_collection" />
+      <config projectName="openMVG" targetName="openMVG_main_ComputeSfM_DataColor" />
+      <config projectName="openMVG" targetName="stlplus" />
+      <config projectName="openMVG" targetName="openMVG_main_IncrementalSfM" />
+      <config projectName="openMVG" targetName="openMVG_multiview" />
+      <config projectName="openMVG" targetName="lib_clp" />
+      <config projectName="openMVG" targetName="lib_CoinUtils" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75531675-c9e6-444c-9240-6582e401108f" name="Default" comment="" />
+    <ignored path="src.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="src" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main_ComputeFeatures.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+              <folding>
+                <element signature="e#7869#7926#0" expanded="true" />
+                <element signature="e#7969#8088#0" expanded="true" />
+                <element signature="e#8185#8241#0" expanded="true" />
+                <element signature="e#10212#10232#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_describer.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openMVG/features/image_describer.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SIFTGPU_describer.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/SIFTGPU_describer.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-825">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="glut.h" pinned="false" current-in-tab="false">
+        <entry file="file:///System/Library/Frameworks/GLUT.framework/Headers/glut.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="431" column="40" selection-start-line="431" selection-start-column="21" selection-end-line="431" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicTestWin.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/TestWin/BasicTestWin.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2751">
+              <caret line="210" column="5" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/software/SfM/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/software/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiftGPU.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftGPU.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="310" column="30" selection-start-line="310" selection-start-column="30" selection-end-line="310" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLTexImage.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/GLTexImage.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="1094" column="17" selection-start-line="1094" selection-start-column="17" selection-end-line="1094" selection-end-column="17" />
+              <folding>
+                <element signature="e#31957#33507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="il.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/IL/il.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="271" column="25" selection-start-line="271" selection-start-column="8" selection-end-line="271" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/openMVG/image/image_container.hpp" />
+        <option value="$PROJECT_DIR$/software/SfM/tutorial_demo.py.in" />
+        <option value="$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp" />
+        <option value="$PROJECT_DIR$/nonFree/SiftGPU/SIFTGPU_describer.hpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="717" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nonFree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nonFree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiftGPU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nonFree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiftGPU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestWin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nonFree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiftGPU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager" selected="Application.openMVG_main_ComputeFeatures">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="doc_doxygen" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="doc_doxygen" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="src" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="doc_doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="doc_doxygen" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lib_clp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="lib_clp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lib_OsiClpSolver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="lib_OsiClpSolver" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lib_CoinUtils" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="lib_CoinUtils" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lib_Osi" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="lib_Osi" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="vlsift" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="vlsift" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SiftGPU" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="SiftGPU" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SiftGPUStatic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="SiftGPUStatic" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_features" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_features" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_image" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_image" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_lInftyComputerVision" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_lInftyComputerVision" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_matching" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_matching" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_kvld" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_kvld" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_matching_image_collection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_matching_image_collection" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_multiview" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_multiview" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_multiview_test_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_multiview_test_data" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_numeric" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_numeric" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sfm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sfm" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_system" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_system" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_cameras_undistoBrown" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_cameras_undistoBrown" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_cameras_undistoBrown">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_exif_Parsing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_exif_Parsing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_exif_Parsing">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_features_affine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_features_affine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_features_affine">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_image_matching" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_image_matching" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_image_matching">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_features_kvld" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_features_kvld" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_features_kvld">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_main_features_repeatability_dataset" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_main_features_repeatability_dataset" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_main_features_repeatability_dataset">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_features_siftPutative" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_features_siftPutative" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_features_siftPutative">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_multiview_robustEssential" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_multiview_robustEssential" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_multiview_robustEssential">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_multiview_robustEssential_ba" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_multiview_robustEssential_ba" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_multiview_robustEssential_ba">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_multiview_robustEssential_spherical" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_multiview_robustEssential_spherical" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_multiview_robustEssential_spherical">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_multiview_robustFundamental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_multiview_robustFundamental" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_multiview_robustFundamental">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_multiview_robustFundamental_guided" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_multiview_robustFundamental_guided" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_multiview_robustFundamental_guided">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_multiview_robustHomography" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_multiview_robustHomography" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_multiview_robustHomography">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_sample_robustHomography_guided" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_sample_robustHomography_guided" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_sample_robustHomography_guided">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ColHarmonize" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ColHarmonize" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ColHarmonize">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_SfM_Localization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_SfM_Localization" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_SfM_Localization">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ComputeFeatures" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--input_file tutorial_out/matches/sfm_data.json --outdir tutorial_out/matches --describerMethod SIFTGPU --upright 0 --describerPreset NORMAL --force 1 " WORKING_DIR="file://$PROJECT_DIR$/build/software/SfM/" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ComputeFeatures" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ComputeFeatures">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ComputeMatches" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ComputeMatches" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ComputeMatches">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ComputeSfM_DataColor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ComputeSfM_DataColor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ComputeSfM_DataColor">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ComputeStructureFromKnownPoses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ComputeStructureFromKnownPoses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ComputeStructureFromKnownPoses">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ConvertList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ConvertList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ConvertList">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ConvertSfM_DataFormat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ConvertSfM_DataFormat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ConvertSfM_DataFormat">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_evalQuality" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_evalQuality" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_evalQuality">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ExportCameraFrustums" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ExportCameraFrustums" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ExportCameraFrustums">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_exportKeypoints" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_exportKeypoints" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_exportKeypoints">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_exportMatches" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-i tutorial_out/matches/sfm_data.json  -o matchout" WORKING_DIR="file://$PROJECT_DIR$/build/software/SfM" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_exportMatches" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_exportMatches">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_exportTracks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_exportTracks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_exportTracks">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_ExportUndistortedImages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_ExportUndistortedImages" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_ExportUndistortedImages">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_FrustumFiltering" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_FrustumFiltering" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_FrustumFiltering">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_GlobalSfM" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_GlobalSfM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_GlobalSfM">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_IncrementalSfM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_IncrementalSfM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_IncrementalSfM">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_openMVG2CMPMVS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_openMVG2CMPMVS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_openMVG2CMPMVS">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_openMVG2MESHLAB" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_openMVG2MESHLAB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_openMVG2MESHLAB">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_openMVG2MVE2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_openMVG2MVE2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_openMVG2MVE2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_openMVG2MVSTEXTURING" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_openMVG2MVSTEXTURING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_openMVG2MVSTEXTURING">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_openMVG2openMVS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_openMVG2openMVS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_openMVG2openMVS">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_openMVG2PMVS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_openMVG2PMVS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_openMVG2PMVS">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="openMVG_main_SfMInit_ImageListing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="openMVG_main_SfMInit_ImageListing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="openMVG_main_SfMInit_ImageListing">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ceres" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="ceres" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="cxsparse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="cxsparse" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="easyexif" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="easyexif" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="flann_cpp_s" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="flann_cpp_s" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="check" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lemon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="lemon" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="stlplus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="stlplus" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="main_svgSample" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="main_svgSample" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="main_svgSample">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="jpeg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="jpeg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="jpeg">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="png" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="png" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="png">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="tiff" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="tiff" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="tiff">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="zlib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openMVG" TARGET_NAME="zlib" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openMVG" RUN_TARGET_NAME="zlib">
+      <envs />
+      <method />
+    </configuration>
+    <list size="70">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.doc_doxygen" />
+      <item index="2" class="java.lang.String" itemvalue="Application.lib_clp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.lib_OsiClpSolver" />
+      <item index="4" class="java.lang.String" itemvalue="Application.lib_CoinUtils" />
+      <item index="5" class="java.lang.String" itemvalue="Application.lib_Osi" />
+      <item index="6" class="java.lang.String" itemvalue="Application.vlsift" />
+      <item index="7" class="java.lang.String" itemvalue="Application.SiftGPU" />
+      <item index="8" class="java.lang.String" itemvalue="Application.SiftGPUStatic" />
+      <item index="9" class="java.lang.String" itemvalue="Application.openMVG_features" />
+      <item index="10" class="java.lang.String" itemvalue="Application.openMVG_image" />
+      <item index="11" class="java.lang.String" itemvalue="Application.openMVG_lInftyComputerVision" />
+      <item index="12" class="java.lang.String" itemvalue="Application.openMVG_matching" />
+      <item index="13" class="java.lang.String" itemvalue="Application.openMVG_kvld" />
+      <item index="14" class="java.lang.String" itemvalue="Application.openMVG_matching_image_collection" />
+      <item index="15" class="java.lang.String" itemvalue="Application.openMVG_multiview" />
+      <item index="16" class="java.lang.String" itemvalue="Application.openMVG_multiview_test_data" />
+      <item index="17" class="java.lang.String" itemvalue="Application.openMVG_numeric" />
+      <item index="18" class="java.lang.String" itemvalue="Application.openMVG_sfm" />
+      <item index="19" class="java.lang.String" itemvalue="Application.openMVG_system" />
+      <item index="20" class="java.lang.String" itemvalue="Application.openMVG_sample_cameras_undistoBrown" />
+      <item index="21" class="java.lang.String" itemvalue="Application.openMVG_main_exif_Parsing" />
+      <item index="22" class="java.lang.String" itemvalue="Application.openMVG_sample_features_affine" />
+      <item index="23" class="java.lang.String" itemvalue="Application.openMVG_sample_image_matching" />
+      <item index="24" class="java.lang.String" itemvalue="Application.openMVG_sample_features_kvld" />
+      <item index="25" class="java.lang.String" itemvalue="Application.openMVG_sample_main_features_repeatability_dataset" />
+      <item index="26" class="java.lang.String" itemvalue="Application.openMVG_sample_features_siftPutative" />
+      <item index="27" class="java.lang.String" itemvalue="Application.openMVG_sample_multiview_robustEssential" />
+      <item index="28" class="java.lang.String" itemvalue="Application.openMVG_sample_multiview_robustEssential_ba" />
+      <item index="29" class="java.lang.String" itemvalue="Application.openMVG_sample_multiview_robustEssential_spherical" />
+      <item index="30" class="java.lang.String" itemvalue="Application.openMVG_sample_multiview_robustFundamental" />
+      <item index="31" class="java.lang.String" itemvalue="Application.openMVG_sample_multiview_robustFundamental_guided" />
+      <item index="32" class="java.lang.String" itemvalue="Application.openMVG_sample_multiview_robustHomography" />
+      <item index="33" class="java.lang.String" itemvalue="Application.openMVG_sample_robustHomography_guided" />
+      <item index="34" class="java.lang.String" itemvalue="Application.openMVG_main_ColHarmonize" />
+      <item index="35" class="java.lang.String" itemvalue="Application.openMVG_main_SfM_Localization" />
+      <item index="36" class="java.lang.String" itemvalue="Application.openMVG_main_ComputeFeatures" />
+      <item index="37" class="java.lang.String" itemvalue="Application.openMVG_main_ComputeMatches" />
+      <item index="38" class="java.lang.String" itemvalue="Application.openMVG_main_ComputeSfM_DataColor" />
+      <item index="39" class="java.lang.String" itemvalue="Application.openMVG_main_ComputeStructureFromKnownPoses" />
+      <item index="40" class="java.lang.String" itemvalue="Application.openMVG_main_ConvertList" />
+      <item index="41" class="java.lang.String" itemvalue="Application.openMVG_main_ConvertSfM_DataFormat" />
+      <item index="42" class="java.lang.String" itemvalue="Application.openMVG_main_evalQuality" />
+      <item index="43" class="java.lang.String" itemvalue="Application.openMVG_main_ExportCameraFrustums" />
+      <item index="44" class="java.lang.String" itemvalue="Application.openMVG_main_exportKeypoints" />
+      <item index="45" class="java.lang.String" itemvalue="Application.openMVG_main_exportMatches" />
+      <item index="46" class="java.lang.String" itemvalue="Application.openMVG_main_exportTracks" />
+      <item index="47" class="java.lang.String" itemvalue="Application.openMVG_main_ExportUndistortedImages" />
+      <item index="48" class="java.lang.String" itemvalue="Application.openMVG_main_FrustumFiltering" />
+      <item index="49" class="java.lang.String" itemvalue="Application.openMVG_main_GlobalSfM" />
+      <item index="50" class="java.lang.String" itemvalue="Application.openMVG_main_IncrementalSfM" />
+      <item index="51" class="java.lang.String" itemvalue="Application.openMVG_main_openMVG2CMPMVS" />
+      <item index="52" class="java.lang.String" itemvalue="Application.openMVG_main_openMVG2MESHLAB" />
+      <item index="53" class="java.lang.String" itemvalue="Application.openMVG_main_openMVG2MVE2" />
+      <item index="54" class="java.lang.String" itemvalue="Application.openMVG_main_openMVG2MVSTEXTURING" />
+      <item index="55" class="java.lang.String" itemvalue="Application.openMVG_main_openMVG2openMVS" />
+      <item index="56" class="java.lang.String" itemvalue="Application.openMVG_main_openMVG2PMVS" />
+      <item index="57" class="java.lang.String" itemvalue="Application.openMVG_main_SfMInit_ImageListing" />
+      <item index="58" class="java.lang.String" itemvalue="Application.ceres" />
+      <item index="59" class="java.lang.String" itemvalue="Application.cxsparse" />
+      <item index="60" class="java.lang.String" itemvalue="Application.easyexif" />
+      <item index="61" class="java.lang.String" itemvalue="Application.flann_cpp_s" />
+      <item index="62" class="java.lang.String" itemvalue="Application.check" />
+      <item index="63" class="java.lang.String" itemvalue="Application.lemon" />
+      <item index="64" class="java.lang.String" itemvalue="Application.stlplus" />
+      <item index="65" class="java.lang.String" itemvalue="Application.main_svgSample" />
+      <item index="66" class="java.lang.String" itemvalue="Application.jpeg" />
+      <item index="67" class="java.lang.String" itemvalue="Application.png" />
+      <item index="68" class="java.lang.String" itemvalue="Application.tiff" />
+      <item index="69" class="java.lang.String" itemvalue="Application.zlib" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75531675-c9e6-444c-9240-6582e401108f" name="Default" comment="" />
+      <created>1469702815833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1469702815833</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="717" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/nonFree/SiftGPU" />
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/dependencies/cereal" />
+      <path value="$PROJECT_DIR$/dependencies/glfw" />
+      <path value="$PROJECT_DIR$/dependencies/osi_clp" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/openMVG/image/image_io.cpp</url>
+          <line>337</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/nonFree/SiftGPU/SIFTGPU_describer.hpp</url>
+          <line>140</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftGPU.cpp</url>
+          <line>225</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp</url>
+          <line>291</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp</url>
+          <line>287</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp</url>
+          <line>277</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp</url>
+          <line>257</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/GLTexImage.cpp</url>
+          <line>1104</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7869#7926#0" expanded="true" />
+            <element signature="e#7969#8088#0" expanded="true" />
+            <element signature="e#8185#8241#0" expanded="true" />
+            <element signature="e#10212#10232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+          <folding>
+            <element signature="e#7869#7926#0" expanded="true" />
+            <element signature="e#7969#8088#0" expanded="true" />
+            <element signature="e#8185#8241#0" expanded="true" />
+            <element signature="e#10212#10232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/SIFTGPU_describer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/sift/SIFT_describer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftGPU.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftGPU.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6315">
+          <caret line="421" column="0" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/image/image_io.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5595">
+          <caret line="373" column="14" selection-start-line="373" selection-start-column="14" selection-end-line="373" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/png.h" />
+    <entry file="file://$PROJECT_DIR$/software/SfM/tutorial_demo.py.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/SfM/main_exportMatches.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/features/io_regions_type.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+          <folding>
+            <element signature="e#7869#7926#0" expanded="true" />
+            <element signature="e#7969#8088#0" expanded="true" />
+            <element signature="e#8185#8241#0" expanded="true" />
+            <element signature="e#10212#10232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/image/image_io.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5595">
+          <caret line="373" column="14" selection-start-line="373" selection-start-column="14" selection-end-line="373" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/image/image_converter.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/image/image_io.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/png.h" />
+    <entry file="file://$PROJECT_DIR$/software/SfM/tutorial_demo.py.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/features/regions.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="144" column="44" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG_Samples/features_affine_demo/features_affine_demo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG_Samples/features_siftPutativeMatches/siftmatch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/features/regions.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/image/image_io.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/image/image_converter.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/png.h" />
+    <entry file="file://$PROJECT_DIR$/openMVG/sfm/pipelines/sfm_features_provider.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.9/bits/shared_ptr_base.h" />
+    <entry file="file://$PROJECT_DIR$/nonFree/sift/SIFT_describer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/image/image_io.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5595">
+          <caret line="373" column="14" selection-start-line="373" selection-start-column="14" selection-end-line="373" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/features/io_regions_type.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/SfM/main_exportMatches.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third_party/eigen/Eigen/src/Core/PlainObjectBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="216" column="29" selection-start-line="216" selection-start-column="29" selection-end-line="216" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/ProgramGLSL.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9180">
+          <caret line="612" column="0" selection-start-line="612" selection-start-column="0" selection-end-line="612" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/ShaderMan.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5220">
+          <caret line="348" column="0" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/PyramidGL.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39135">
+          <caret line="2609" column="0" selection-start-line="2609" selection-start-column="0" selection-end-line="2609" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftGPU.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/SfM/tutorial_demo.py.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/image/image_container.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/TestWin/TestWinGlut.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/TestWin/BasicTestWin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1138">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/TestWin/BasicTestWin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2751">
+          <caret line="210" column="5" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/features/image_describer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/SfM/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openMVG/features/feature.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/SiftGPU.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="310" column="30" selection-start-line="310" selection-start-column="30" selection-end-line="310" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/IL/il.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="271" column="25" selection-start-line="271" selection-start-column="8" selection-end-line="271" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/src/SiftGPU/GLTexImage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1094" column="17" selection-start-line="1094" selection-start-column="17" selection-end-line="1094" selection-end-column="17" />
+          <folding>
+            <element signature="e#31957#33507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/GLUT.framework/Headers/glut.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="431" column="40" selection-start-line="431" selection-start-column="21" selection-end-line="431" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nonFree/SiftGPU/SIFTGPU_describer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/software/SfM/main_ComputeFeatures.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+          <folding>
+            <element signature="e#7869#7926#0" expanded="true" />
+            <element signature="e#7969#8088#0" expanded="true" />
+            <element signature="e#8185#8241#0" expanded="true" />
+            <element signature="e#10212#10232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
