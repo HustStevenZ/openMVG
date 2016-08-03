@@ -304,17 +304,56 @@ struct GpuDistance< L1<unsigned char> >
 {
     typedef CudaL1 type;
 };
+ template <typename T1,typename T2> void CopyContent(const Matrix<T1> *src,Matrix<T2> *dest)
+    {
+	int cols = src->cols;
+	int rows = src->rows;
+       // delete(dest->data);
+        //dest->data=nullptr;
+	if(dest->data == nullptr && (dest->cols==0 && dest->rows==0 ))
+	{
+		//copyt to empty matrix
+        	dest->data = (uchar*)malloc(sizeof(T2)*dest->stride*dest->rows);
+	}
+	
+        dest->cols = src->cols;
+        dest->rows = src->rows;
+        dest->stride = sizeof(T2)*dest->cols;
+        for(int i =0;i<src->rows;i++)
+        {
+            for(int j = 0;j<src->cols;j++)
+            {
+		T2 value = ((*src)[i][j]);
+                ((*dest)[i][j])=(T1)value;
+            }
+        }
+    }
 
+template void CopyContent<double,float>(const Matrix<double> *src,Matrix<float> *dest);
+template void CopyContent<unsigned char,float>(const Matrix<unsigned char> *src,Matrix<float> *dest);
+template void CopyContent<float,float>(const Matrix<float> *src,Matrix<float> *dest);
+template void CopyContent<int,int>(const Matrix<int> *src,Matrix<int> *dest);
 
 template< typename Distance >
-void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, size_t knn, const SearchParams& params) const
+void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& queries_orig, Matrix<int>& indices, Matrix<DistanceType>& dists_orig, size_t knn, const SearchParams& params) const
 {
+ 	Matrix<float> queries(nullptr,0,0,0);
+	//Matrix<int> indices;
+	Matrix<float> dists(nullptr,0,0,0);	
+	CopyContent(&queries_orig,&queries);
+	//if(ElementType.name() == "double")
+	//{
+	//	Matrix<double> *ptr = reinterpret_cast<Matrix<double>*>(&queries_orig);
+	//	CopyContent<double,float>(&ptr,&queries);
+//	}
+        //copyContent<int,int>(indices_orig,indices);
+	CopyContent(&dists_orig,&dists); 
+   
     assert(indices.rows >= queries.rows);
     assert(dists.rows >= queries.rows);
     assert(int(indices.cols) >= knn);
     assert( dists.cols == indices.cols && dists.stride==indices.stride );
-    
-    int istride=queries.stride/sizeof(ElementType);
+   int istride=queries.stride/sizeof(ElementType);
     int ostride=indices.stride/4;
 
     bool matrices_on_gpu = params.matrices_in_gpu_ram;
@@ -325,12 +364,7 @@ void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& querie
     float epsError = 1+params.eps;
     bool sorted = params.sorted;
     bool use_heap = params.use_heap;
-    thrust::device_ptr<float> qd = thrust::device_pointer_cast(queries.ptr());
-        thrust::device_ptr<float> dd = thrust::device_pointer_cast(dists.ptr());
-        thrust::device_ptr<int> id = thrust::device_pointer_cast(indices.ptr());
-
-
-
+  
     typename GpuDistance<Distance>::type distance;
 //       std::cout<<" search: "<<std::endl;
 //       std::cout<<"  rows: "<<indices.rows<<" "<<dists.rows<<" "<<queries.rows<<std::endl;
@@ -470,6 +504,7 @@ void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& querie
         }
         thrust::transform(id, id+knn*queries.rows, id, map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
     }
+	CopyContent<float,DistanceType>(&dists,&dists_orig); 
 }
 
 
@@ -477,7 +512,7 @@ template< typename Distance>
 int KDTreeCuda3dIndex<Distance >::radiusSearchGpu(const Matrix<ElementType>& queries, std::vector< std::vector<int> >& indices,
                                                   std::vector<std::vector<DistanceType> >& dists, float radius, const SearchParams& params) const
 {
-    //  assert(indices.roasdfws >= queries.rows);
+ 	    //  assert(indices.roasdfws >= queries.rows);
     //  assert(dists.rows >= queries.rows);
 
     int max_neighbors = params.max_neighbors;
@@ -609,8 +644,21 @@ struct isNotMinusOne
 };
 
 template< typename Distance>
-int KDTreeCuda3dIndex< Distance >::radiusSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, float radius, const SearchParams& params) const
+int KDTreeCuda3dIndex< Distance >::radiusSearchGpu(const Matrix<ElementType>& queries_orig, Matrix<int>& indices, Matrix<DistanceType>& dists_orig, float radius, const SearchParams& params) const
 {
+	Matrix<float> queries(nullptr,0,0,0);
+	//Matrix<int> indices;
+	Matrix<float> dists(nullptr,0,0,0);	
+	CopyContent(&queries_orig,&queries);
+	//if(ElementType.name() == "double")
+	//{
+	//	Matrix<double> *ptr = reinterpret_cast<Matrix<double>*>(&queries_orig);
+	//	CopyContent<double,float>(&ptr,&queries);
+//	}
+        //copyContent<int,int>(indices_orig,indices);
+	CopyContent(&dists_orig,&dists); 
+ 
+
 	int max_neighbors = params.max_neighbors;
     assert(indices.rows >= queries.rows);
     assert(dists.rows >= queries.rows || max_neighbors==0 );
@@ -691,6 +739,7 @@ int KDTreeCuda3dIndex< Distance >::radiusSearchGpu(const Matrix<ElementType>& qu
         thrust::transform(indicesDev.begin(), indicesDev.end(), indicesDev.begin(), map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
         thrust::copy( indicesDev.begin(), indicesDev.end(), indices.ptr() );
 
+	CopyContent<float,DistanceType>(&dists,&dists_orig); 
         return thrust::count_if(indicesDev.begin(), indicesDev.end(), isNotMinusOne() );
     }
     else {
@@ -753,6 +802,7 @@ int KDTreeCuda3dIndex< Distance >::radiusSearchGpu(const Matrix<ElementType>& qu
 
         thrust::transform(id, id+max_neighbors*queries.rows, id, map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
 
+	CopyContent<float,DistanceType>(&dists,&dists_orig); 
         return thrust::count_if(id, id+max_neighbors*queries.rows, isNotMinusOne() );
     }
 }
@@ -779,10 +829,11 @@ void KDTreeCuda3dIndex<Distance>::uploadTreeToGpu()
         // (vs a float2 and a float load for a float3 value)
         // pad data directly to avoid having to copy and re-format the data when
         // copying it to the GPU
-        data_ = flann::Matrix<ElementType>(new ElementType[size_*4], size_, dim_,4*4);
+        data_ = flann::Matrix<float>(new float[size_*dim_*4], size_, dim_,4*4);
         for (size_t i=0; i<size_; ++i) {
             for (size_t j=0; j<dim_; ++j) {
                 data_[i][j] = dataset_[i][j];
+                //data_[i][j] = 0;
             }
             for (size_t j=dim_; j<4; ++j) {
                 data_[i][j] = 0;

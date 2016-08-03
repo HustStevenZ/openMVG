@@ -89,15 +89,14 @@ Matcher_Regions_Database::Matcher_Regions_Database
 	break;
         case ANN_L2_CUDA:
         {
-	 typedef flann::L2<unsigned char> MetricT;
-          typedef ArrayMatcher_Kdtree_Flann<unsigned char, MetricT> MatcherT;
-          matching_interface_.reset(new matching::RegionsMatcherT<MatcherT>(database_regions, true));
+	 //typedef flann::L2<unsigned char> MetricT;
+          //typedef ArrayMatcher_Kdtree_Flann<unsigned char, MetricT> MatcherT;
+         // matching_interface_.reset(new matching::RegionsMatcherT<MatcherT>(database_regions, true));
         
           std::cerr << "Match ANN_L2_CUDA unsigned char hit" << std::endl;
-       //   typedef flann::L2<unsigned char> MetricT;
-        //  typedef ArrayMatcher_Kdtree_cuda_Flann<unsigned char, MetricT> MatcherT;
-        //  typedef ArrayMatcher_Kdtree_Flann<unsigned char, MetricT> MatcherT;
-         // matching_interface_.reset(new matching::RegionsMatcherT<MatcherT>(database_regions, true));
+          typedef flann::L2<unsigned char> MetricT;
+          typedef ArrayMatcher_Kdtree_cuda_Flann<unsigned char, MetricT> MatcherT;
+          matching_interface_.reset(new matching::RegionsMatcherT<MatcherT>(database_regions, true));
         }
         break;
         case CASCADE_HASHING_L2:
@@ -169,14 +168,14 @@ Matcher_Regions_Database::Matcher_Regions_Database
         break;
          case ANN_L2_CUDA:
         {
-    typedef flann::L2<double> MetricT;
-          typedef ArrayMatcher_Kdtree_Flann<double, MetricT> MatcherT;
-          matching_interface_.reset(new matching::RegionsMatcherT<MatcherT>(database_regions, true));
+    //typedef flann::L2<double> MetricT;
+     //     typedef ArrayMatcher_Kdtree_Flann<double, MetricT> MatcherT;
+      //    matching_interface_.reset(new matching::RegionsMatcherT<MatcherT>(database_regions, true));
        
           std::cerr << "Match ANN_L2_CUDA double hit" << std::endl;
-//          typedef flann::L2<double> MetricT;
- //         typedef ArrayMatcher_Kdtree_cuda_Flann<double, MetricT> MatcherT;
-  //        matching_interface_.reset(new matching::RegionsMatcherT<MatcherT>(database_regions, true));
+          typedef flann::L2<double> MetricT;
+          typedef ArrayMatcher_Kdtree_cuda_Flann<double, MetricT> MatcherT;
+          matching_interface_.reset(new matching::RegionsMatcherT<MatcherT>(database_regions, true));
         }
         break;
         case CASCADE_HASHING_L2:

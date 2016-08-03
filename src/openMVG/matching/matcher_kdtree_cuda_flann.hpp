@@ -55,8 +55,10 @@ class ArrayMatcher_Kdtree_cuda_Flann : public ArrayMatcher<Scalar, Metric>
 
 	
       //-- Build FLANN index
+	flann::KDTreeCuda3dIndexParams params(4);
+//	params["dim"]=128;
       _index.reset(
-          new flann::KDTreeCuda3dIndex<Metric> (*_datasetM, flann::KDTreeCuda3dIndexParams(4)));
+          new flann::KDTreeCuda3dIndex<Metric> (*_datasetM, params));
       _index->buildIndex();
 
       return true;

@@ -73,8 +73,8 @@ public:
     size_t cols;
     size_t stride;
     flann_datatype_t type;
-protected:
     uchar* data;
+protected:
 
     template<typename Archive>
     void serialize(Archive& ar)
@@ -123,13 +123,15 @@ public:
     	return reinterpret_cast<T*>(data+index*stride);
     }
 
-
     T* ptr() const
     {
     	return reinterpret_cast<T*>(data);
     }
 };
 
+//template void CopyContent(Matrix<double> &src,Matrix<float> &dest);
+//template void CopyContent(Matrix<unsigned char> &src,Matrix<float> &dest);
+//template void CopyContent(Matrix<int> &src,Matrix<int> &dest);
 }
 
 #endif //FLANN_DATASET_H_

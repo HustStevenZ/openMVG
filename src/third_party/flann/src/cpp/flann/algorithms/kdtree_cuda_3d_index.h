@@ -314,7 +314,7 @@ private:
      */
     std::vector<int> vind_;
 
-    Matrix<ElementType> data_;
+    Matrix<float> data_;
 
     size_t dim_;
 
