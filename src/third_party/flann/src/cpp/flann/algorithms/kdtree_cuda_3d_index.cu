@@ -334,20 +334,22 @@ template void CopyContent<unsigned char,float>(const Matrix<unsigned char> *src,
 template void CopyContent<float,float>(const Matrix<float> *src,Matrix<float> *dest);
 template void CopyContent<int,int>(const Matrix<int> *src,Matrix<int> *dest);
 
+//template< typename Distance >
+//void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& queries_orig, Matrix<int>& indices, Matrix<DistanceType>& dists_orig, size_t knn, const SearchParams& params) const
 template< typename Distance >
-void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& queries_orig, Matrix<int>& indices, Matrix<DistanceType>& dists_orig, size_t knn, const SearchParams& params) const
+void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, size_t knn, const SearchParams& params) const
 {
- 	Matrix<float> queries(nullptr,0,0,0);
+ 	//Matrix<float> queries(nullptr,0,0,0);
 	//Matrix<int> indices;
-	Matrix<float> dists(nullptr,0,0,0);	
-	CopyContent(&queries_orig,&queries);
+//	Matrix<float> dists(nullptr,0,0,0);	
+//	CopyContent(&queries_orig,&queries);
 	//if(ElementType.name() == "double")
 	//{
 	//	Matrix<double> *ptr = reinterpret_cast<Matrix<double>*>(&queries_orig);
 	//	CopyContent<double,float>(&ptr,&queries);
 //	}
         //copyContent<int,int>(indices_orig,indices);
-	CopyContent(&dists_orig,&dists); 
+//	CopyContent(&dists_orig,&dists); 
    
     assert(indices.rows >= queries.rows);
     assert(dists.rows >= queries.rows);
@@ -440,71 +442,71 @@ void KDTreeCuda3dIndex<Distance>::knnSearchGpu(const Matrix<ElementType>& querie
         thrust::transform(indicesDev.begin(), indicesDev.end(), indicesDev.begin(), map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
         thrust::copy( indicesDev.begin(), indicesDev.end(), indices.ptr() );
     }
-    else {
-        thrust::device_ptr<float> qd = thrust::device_pointer_cast(queries.ptr());
-        thrust::device_ptr<float> dd = thrust::device_pointer_cast(dists.ptr());
-        thrust::device_ptr<int> id = thrust::device_pointer_cast(indices.ptr());
-
-
-
-        if( knn==1  ) {
-            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
-                                                                                  thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
-                                                                                  qd.get(),
-                                                                                  istride,
-                                                                                  ostride,
-                                                                                  id.get(),
-                                                                                  dd.get(),
-                                                                                  queries.rows, flann::cuda::SingleResultSet<float>(epsError),distance);
-            //                          KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_nodes_)[0])),
-            //                                                                                                                                                                                                                                                                                          thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
-            //                                                                                                                                                                                                                                                                                          thrust::raw_pointer_cast(&queriesDev[0]),
-            //                                                                                                                                                                                                                                                                                          queries.stride,
-            //                                                                                                                                                                                                                                                                                          thrust::raw_pointer_cast(&indicesDev[0]),
-            //                                                                                                                                                                                                                                                                                          thrust::raw_pointer_cast(&distsDev[0]),
-            //                                                                                                                                                                                                                                                                                          queries.rows, epsError);
-            //
-        }
-        else {
-            if( use_heap ) {
-                KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
-                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
-                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
-                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
-                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
-                                                                                      thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
-                                                                                      qd.get(),
-                                                                                      istride,
-                                                                                      ostride,
-                                                                                      id.get(),
-                                                                                      dd.get(),
-                                                                                      queries.rows, flann::cuda::KnnResultSet<float, true>(knn,sorted,epsError)
-                                                                                      , distance);
-            }
-            else {
-                KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
-                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
-                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
-                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
-                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
-                                                                                      thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
-                                                                                      qd.get(),
-                                                                                      istride,
-                                                                                      ostride,
-                                                                                      id.get(),
-                                                                                      dd.get(),
-                                                                                      queries.rows, flann::cuda::KnnResultSet<float, false>(knn,sorted,epsError),
-                                                                                      distance
-                                                                                      );
-            }
-        }
-        thrust::transform(id, id+knn*queries.rows, id, map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
-    }
-	CopyContent<float,DistanceType>(&dists,&dists_orig); 
+    //else {
+//        thrust::device_ptr<float> qd = thrust::device_pointer_cast(queries.ptr());
+//        thrust::device_ptr<float> dd = thrust::device_pointer_cast(dists.ptr());
+//        thrust::device_ptr<int> id = thrust::device_pointer_cast(indices.ptr());
+//
+//
+//
+//        if( knn==1  ) {
+//            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
+//                                                                                  thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
+//                                                                                  qd.get(),
+//                                                                                  istride,
+//                                                                                  ostride,
+//                                                                                  id.get(),
+//                                                                                  dd.get(),
+//                                                                                  queries.rows, flann::cuda::SingleResultSet<float>(epsError),distance);
+//            //                          KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_nodes_)[0])),
+//            //                                                                                                                                                                                                                                                                                          thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
+//            //                                                                                                                                                                                                                                                                                          thrust::raw_pointer_cast(&queriesDev[0]),
+//            //                                                                                                                                                                                                                                                                                          queries.stride,
+//            //                                                                                                                                                                                                                                                                                          thrust::raw_pointer_cast(&indicesDev[0]),
+//            //                                                                                                                                                                                                                                                                                          thrust::raw_pointer_cast(&distsDev[0]),
+//            //                                                                                                                                                                                                                                                                                          queries.rows, epsError);
+//            //
+//        }
+//        else {
+//            if( use_heap ) {
+//                KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
+//                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
+//                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
+//                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
+//                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
+//                                                                                      thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
+//                                                                                      qd.get(),
+//                                                                                      istride,
+//                                                                                      ostride,
+//                                                                                      id.get(),
+//                                                                                      dd.get(),
+//                                                                                      queries.rows, flann::cuda::KnnResultSet<float, true>(knn,sorted,epsError)
+//                                                                                      , distance);
+//            }
+//            else {
+//                KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
+//                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
+//                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
+//                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
+//                                                                                      thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
+//                                                                                      thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
+//                                                                                      qd.get(),
+//                                                                                      istride,
+//                                                                                      ostride,
+//                                                                                      id.get(),
+//                                                                                      dd.get(),
+//                                                                                      queries.rows, flann::cuda::KnnResultSet<float, false>(knn,sorted,epsError),
+//                                                                                      distance
+//                                                                                      );
+//            }
+//        }
+//        thrust::transform(id, id+knn*queries.rows, id, map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
+//    }
+//	CopyContent<float,DistanceType>(&dists,&dists_orig); 
 }
 
 
@@ -643,20 +645,22 @@ struct isNotMinusOne
     }
 };
 
+//template< typename Distance>
+//int KDTreeCuda3dIndex< Distance >::radiusSearchGpu(const Matrix<ElementType>& queries_orig, Matrix<int>& indices, Matrix<DistanceType>& dists_orig, float radius, const SearchParams& params) const
 template< typename Distance>
-int KDTreeCuda3dIndex< Distance >::radiusSearchGpu(const Matrix<ElementType>& queries_orig, Matrix<int>& indices, Matrix<DistanceType>& dists_orig, float radius, const SearchParams& params) const
+int KDTreeCuda3dIndex< Distance >::radiusSearchGpu(const Matrix<ElementType>& queries, Matrix<int>& indices, Matrix<DistanceType>& dists, float radius, const SearchParams& params) const
 {
-	Matrix<float> queries(nullptr,0,0,0);
+//	Matrix<float> queries(nullptr,0,0,0);
 	//Matrix<int> indices;
-	Matrix<float> dists(nullptr,0,0,0);	
-	CopyContent(&queries_orig,&queries);
+//	Matrix<float> dists(nullptr,0,0,0);	
+//	CopyContent(&queries_orig,&queries);
 	//if(ElementType.name() == "double")
 	//{
 	//	Matrix<double> *ptr = reinterpret_cast<Matrix<double>*>(&queries_orig);
 	//	CopyContent<double,float>(&ptr,&queries);
 //	}
         //copyContent<int,int>(indices_orig,indices);
-	CopyContent(&dists_orig,&dists); 
+//	CopyContent(&dists_orig,&dists); 
  
 
 	int max_neighbors = params.max_neighbors;
@@ -739,72 +743,72 @@ int KDTreeCuda3dIndex< Distance >::radiusSearchGpu(const Matrix<ElementType>& qu
         thrust::transform(indicesDev.begin(), indicesDev.end(), indicesDev.begin(), map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
         thrust::copy( indicesDev.begin(), indicesDev.end(), indices.ptr() );
 
-	CopyContent<float,DistanceType>(&dists,&dists_orig); 
+	//CopyContent<float,DistanceType>(&dists,&dists_orig); 
         return thrust::count_if(indicesDev.begin(), indicesDev.end(), isNotMinusOne() );
     }
-    else {
-
-        thrust::device_ptr<float> qd=thrust::device_pointer_cast(queries.ptr());
-        thrust::device_ptr<float> dd=thrust::device_pointer_cast(dists.ptr());
-        thrust::device_ptr<int> id=thrust::device_pointer_cast(indices.ptr());
-        typename GpuDistance<Distance>::type distance;
-        int threadsPerBlock = 128;
-        int blocksPerGrid=(queries.rows+threadsPerBlock-1)/threadsPerBlock;
-
-        if( max_neighbors== 0 ) {
-            thrust::device_vector<int> indicesDev(queries.rows* indices.stride);
-            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
-                                                                                  thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
-                                                                                  qd.get(),
-                                                                                  istride,
-                                                                                  ostride,
-                                                                                  id.get(),
-                                                                                  0,
-                                                                                  queries.rows, flann::cuda::CountingRadiusResultSet<float>(radius,-1),
-                                                                                  distance
-                                                                                  );
-            thrust::copy( indicesDev.begin(), indicesDev.end(), indices.ptr() );
-            return thrust::reduce(indicesDev.begin(), indicesDev.end() );
-        }
-
-        if( use_heap ) {
-            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
-                                                                                  thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
-                                                                                  qd.get(),
-                                                                                  istride,
-                                                                                  ostride,
-                                                                                  id.get(),
-                                                                                  dd.get(),
-                                                                                  queries.rows, flann::cuda::KnnRadiusResultSet<float, true>(max_neighbors,sorted,epsError, radius), distance);
-        }
-        else {
-            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
-                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
-                                                                                  thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
-                                                                                  qd.get(),
-                                                                                  istride,
-                                                                                  ostride,
-                                                                                  id.get(),
-                                                                                  dd.get(),
-                                                                                  queries.rows, flann::cuda::KnnRadiusResultSet<float, false>(max_neighbors,sorted,epsError, radius), distance);
-        }
-
-        thrust::transform(id, id+max_neighbors*queries.rows, id, map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
-
-	CopyContent<float,DistanceType>(&dists,&dists_orig); 
-        return thrust::count_if(id, id+max_neighbors*queries.rows, isNotMinusOne() );
-    }
+//    else {
+//
+//        thrust::device_ptr<float> qd=thrust::device_pointer_cast(queries.ptr());
+//        thrust::device_ptr<float> dd=thrust::device_pointer_cast(dists.ptr());
+//        thrust::device_ptr<int> id=thrust::device_pointer_cast(indices.ptr());
+//        typename GpuDistance<Distance>::type distance;
+//        int threadsPerBlock = 128;
+//        int blocksPerGrid=(queries.rows+threadsPerBlock-1)/threadsPerBlock;
+//
+//        if( max_neighbors== 0 ) {
+//            thrust::device_vector<int> indicesDev(queries.rows* indices.stride);
+//            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
+//                                                                                  thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
+//                                                                                  qd.get(),
+//                                                                                  istride,
+//                                                                                  ostride,
+//                                                                                  id.get(),
+//                                                                                  0,
+//                                                                                  queries.rows, flann::cuda::CountingRadiusResultSet<float>(radius,-1),
+//                                                                                  distance
+//                                                                                  );
+//            thrust::copy( indicesDev.begin(), indicesDev.end(), indices.ptr() );
+//            return thrust::reduce(indicesDev.begin(), indicesDev.end() );
+//        }
+//
+//        if( use_heap ) {
+//            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
+//                                                                                  thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
+//                                                                                  qd.get(),
+//                                                                                  istride,
+//                                                                                  ostride,
+//                                                                                  id.get(),
+//                                                                                  dd.get(),
+//                                                                                  queries.rows, flann::cuda::KnnRadiusResultSet<float, true>(max_neighbors,sorted,epsError, radius), distance);
+//        }
+//        else {
+//            KdTreeCudaPrivate::nearestKernel<<<blocksPerGrid, threadsPerBlock>>> (thrust::raw_pointer_cast(&((*gpu_helper_->gpu_splits_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_child1_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_parent_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_min_)[0])),
+//                                                                                  thrust::raw_pointer_cast(&((*gpu_helper_->gpu_aabb_max_)[0])),
+//                                                                                  thrust::raw_pointer_cast( &((*gpu_helper_->gpu_points_)[0]) ),
+//                                                                                  qd.get(),
+//                                                                                  istride,
+//                                                                                  ostride,
+//                                                                                  id.get(),
+//                                                                                  dd.get(),
+//                                                                                  queries.rows, flann::cuda::KnnRadiusResultSet<float, false>(max_neighbors,sorted,epsError, radius), distance);
+//        }
+//
+//        thrust::transform(id, id+max_neighbors*queries.rows, id, map_indices(thrust::raw_pointer_cast( &((*gpu_helper_->gpu_vind_))[0]) ));
+//
+//	CopyContent<float,DistanceType>(&dists,&dists_orig); 
+//        return thrust::count_if(id, id+max_neighbors*queries.rows, isNotMinusOne() );
+//    }
 }
 
 template<typename Distance>
